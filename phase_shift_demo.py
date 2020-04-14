@@ -8,8 +8,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Signal constants, based on max 15kHz sample rate on Arduino analog read.
-number_of_samples = 15001
-samples_per_second = 1500
+number_of_samples = 30001
+samples_per_second = 15000
 # Frequency in Hz of both signals.
 frequency = 3
 # Phase shift in radians of shifted signal.
